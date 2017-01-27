@@ -24,7 +24,7 @@ public class Factorial_capsa_negra {
         if(n == 0 || n== 1){
             return 1;
         }
-        return n * factorial(n - 2);
+        return n * factorial(n - 1);
     }
     
     public static void main(String[] args){
